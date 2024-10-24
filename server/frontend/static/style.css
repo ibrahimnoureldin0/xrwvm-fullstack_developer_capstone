@@ -124,3 +124,19 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  display: flex;
+  height: 100%; /* لضمان أن القسميْن سيغطيان الشاشة بالكامل */
+}
+
+.contact, .txt {
+  flex: 1; /* لتقسيم الشاشة بالتساوي بين القسمين */
+  padding: 20px; /* لإضافة بعض الفراغ الداخلي */
+}
